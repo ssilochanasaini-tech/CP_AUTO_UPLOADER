@@ -12,7 +12,7 @@ class Config(object):
 
     # ─── Owner & Admin ──────────────────────────────────────────────────────
     # Owner — hardcoded, always has full access
-    OWNER_ID = 8532700793
+    OWNER_ID = 8852146747
 
     # Extra admins from env (comma-separated IDs), e.g. "123456,789012"
     _extra_admins_env = os.environ.get("ADMIN_IDS", "")
