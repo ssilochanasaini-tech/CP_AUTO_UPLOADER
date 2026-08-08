@@ -1,10 +1,10 @@
 import os
 
 class Config(object):
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8788193298:AAHaA6-S1nslMUE7WiQZSCQgFkliskR5y2M")
     DB_NAME = os.environ.get("DB_NAME", "classplus_bot")
-    API_ID = os.environ.get("API_ID", "YOUR_API_ID")
-    API_HASH = os.environ.get("API_HASH", "YOUR_API_HASH")
+    API_ID = os.environ.get("API_ID", "36237546")
+    API_HASH = os.environ.get("API_HASH", "6f01984353006ed4bb09e8fd1ff5c2af")
     DB_URL = os.environ.get("DB_URL", "mongodb+srv://amanraj8241245_db_user:l5ZdFFk0yuQckD5M@cluster0.4uxpbyq.mongodb.net/?appName=Cluster0")
     LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-100XXXXXXXXXX")
     USERLINK = os.environ.get("USERLINK", "https://t.me/YourChannel")
